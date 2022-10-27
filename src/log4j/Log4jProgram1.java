@@ -17,7 +17,7 @@ public class Log4jProgram1 {
 	  PropertyConfigurator.configure("Log4j.properties");
 	  driver.get("https://www.google.com/");
 	  log.info("Enter google URL");
-	  log.info("Enter updated info");
+	  log.info("Enter date info");
   }
   
   @BeforeTest
